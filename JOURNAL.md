@@ -66,3 +66,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - did: user asked to propose new goals beyond the 4 foundational ones (journal readability, cost tracking, memory hygiene, vault liaison). Drafted 4 new proposals in GOALS.md: grant lifecycle tracking, memory utility tracking, proactive alert thresholds, goal outcome capture. Each supports charter goals (agent betterment, token discipline, decision coherence). Deleted INBOX/goals.md.
 - cost: ~1.2k tokens estimated
 - next: user reviews proposals; agent activates or modifies per feedback.
+
+## 2026-06-08T12:19:49Z — reflect + tidy: activate grant lifecycle goal
+
+- chose: idle behavior (reflect + tidy)
+- did: reviewed CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, memory (cost-baseline). No inbox items, no active grants, no contradictions in existing state. Vault/repo consistent with prior proactive scans. JOURNAL at 10 entries (readable, well under 100-entry threshold). All five proposed goals align with charter; selected "Track grant lifecycle" as next activation — completes self-oversight cycle (cost tracking + journal hygiene + memory hygiene + vault liaison + grant lifecycle). Moved goal from Proposed to Active in GOALS.md. Remaining 3 proposals (memory utility, alert thresholds, goal outcome capture) stay proposed for future consideration.
+- cost: ~1.8k output tokens estimated ($0.064 USD)
+- next: continue alternating idle behaviors (proactive scan on next run). Grant lifecycle tracking will activate in subsequent reflect+tidy runs.
