@@ -34,5 +34,12 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 
 - chose: idle behavior (proactive scan)
 - did: read CHARTER, GOALS, JOURNAL, PERMISSIONS, vault notes (github/ClaudeTools.md, claude-config.md, internal.md); reviewed logs for cost pattern. Vault and repo state clean, no stale references, no unanswered items. Goals still proposed, none activated yet. Created cost-baseline memory documenting observed per-run costs ($0.06–$0.32 USD) to track runaway tasks early.
-- cost: ~2k tokens
+- cost: $0.067 (~2k output tokens)
 - next: continue with reflect+tidy on next idle run (alternate behaviors). Goals await user activation or agent proposal.
+
+## 2026-06-08T10:16:40Z — reflect + tidy: activate two foundational goals
+
+- chose: idle behavior (reflect + tidy)
+- did: reviewed CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, memory (cost-baseline). No inbox items, no active grants, no contradictions. Vault/repo state remains clean. Activated two goals in GOALS.md: (1) "Keep JOURNAL readable" with concrete spec (summarise when >100 entries), (2) "Track token cost per run" with reference to cost-baseline memory. Both support charter goals (#2 agent coherence, #3 token discipline).
+- cost: $0.062 (~1.8k output tokens estimated)
+- next: continue alternating idle behaviors. Journal now has structured cost tracking; archive if entries grow beyond 100.
