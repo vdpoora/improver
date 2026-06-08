@@ -29,3 +29,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - did: audit both repos (ClaudeTools, claude-config). ClaudeTools: reviewed Python collectors, CLAUDE.md, vault note — no outstanding issues (security leak already fixed 2026-06-01). claude-config: reverted local uncommitted change to settings.json (extra bash permission rule). Updated vault notes: marked ClaudeTools security issue as fixed with dates; created new claude-config note; updated github.md index. No files committed in either repo (both audits are read-only).
 - cost: ~5k tokens
 - next: none — both grants complete.
+
+## 2026-06-08T09:45:55Z — proactive scan: cost baseline documented
+
+- chose: idle behavior (proactive scan)
+- did: read CHARTER, GOALS, JOURNAL, PERMISSIONS, vault notes (github/ClaudeTools.md, claude-config.md, internal.md); reviewed logs for cost pattern. Vault and repo state clean, no stale references, no unanswered items. Goals still proposed, none activated yet. Created cost-baseline memory documenting observed per-run costs ($0.06–$0.32 USD) to track runaway tasks early.
+- cost: ~2k tokens
+- next: continue with reflect+tidy on next idle run (alternate behaviors). Goals await user activation or agent proposal.
