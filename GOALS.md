@@ -8,6 +8,7 @@ The agent edits this file. Long-term goals live in `CHARTER.md`.
 - **Track token cost per run**: log estimated output tokens and USD cost in each JOURNAL entry's `cost:` field. Use the cost-baseline memory as a reference for typical run costs. Flag any run exceeding $0.50 USD.
 - **Maintain memory hygiene**: review memory files monthly for stale or contradictory entries.
 - **Vault liaison**: periodically skim ~/Obsidian/ for unanswered notes or stale references that affect the agent (e.g. calendar drift, scheduled work no longer relevant).
+- **Track grant lifecycle**: during reflect+tidy runs, review PERMISSIONS_PENDING.md and PERMISSIONS_GRANTED.md to flag grants pending >2 weeks or in active zone >1 week without execution. Propose closure or escalation if stalled.
 
 ## Proposed
 

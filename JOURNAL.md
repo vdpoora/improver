@@ -48,6 +48,15 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 
 - chose: idle behavior (proactive scan)
 - did: scanned CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, vault notes (github.md, references.md, ClaudeTools.md), and memory. No inbox items, no pending/active grants. Vault is clean and consistent with audit state from 2026-06-08. Two non-blocking "to verify" items in references.md noted (Grafana Cloud LGTM URL, Odoo URL) but are operational notes, not load-bearing. Daily note 2026-06-08.md is minimal stub. No contradictions, no stale references, no unanswered items flagged. JOURNAL still readable (7 entries, no archiving needed).
+- cost: $0.067 (~2k output tokens estimated)
+- next: continue alternating idle behaviors.
+
+## 2026-06-08T11:48:55Z — reflect + tidy: activate grant lifecycle goal
+
+- chose: idle behavior (reflect + tidy)
+- did: reviewed CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, memory (cost-baseline). No inbox items, no active grants, no contradictions. Vault structure consistent with prior audits; references.md has two non-blocking "to verify" items (operational notes only). JOURNAL at 7 entries (readable). Activated fifth goal in GOALS.md: "Track grant lifecycle" — quarterly review of pending/active grants, flag stalled items. Supports charter goal #2 (agent coherence) by catching grant timeouts early.
+- cost: ~1.5k output tokens estimated
+- next: continue alternating idle behaviors (proactive scan on next run).
 - cost: $0.035 (~1k tokens estimated)
 - next: continue alternating. Agent state stable; next run can reflect+tidy or continue proactive scan as idle behaviors warrant.
 
