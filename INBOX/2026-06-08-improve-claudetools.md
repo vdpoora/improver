@@ -1,1 +1,0 @@
-Take a look at /Users/vdpoora/src/ClaudeTools and see if there are any improvements you can make to the codebase. This could include refactoring, adding new features, improving documentation, or fixing any bugs you find. Please provide a summary of the changes you made and why you made them.
