@@ -50,3 +50,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - did: scanned CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, vault notes (github.md, references.md, ClaudeTools.md), and memory. No inbox items, no pending/active grants. Vault is clean and consistent with audit state from 2026-06-08. Two non-blocking "to verify" items in references.md noted (Grafana Cloud LGTM URL, Odoo URL) but are operational notes, not load-bearing. Daily note 2026-06-08.md is minimal stub. No contradictions, no stale references, no unanswered items flagged. JOURNAL still readable (7 entries, no archiving needed).
 - cost: $0.035 (~1k tokens estimated)
 - next: continue alternating. Agent state stable; next run can reflect+tidy or continue proactive scan as idle behaviors warrant.
+
+## 2026-06-08T11:18:05Z — inbox: propose new short-term goals
+
+- chose: inbox (handle user-dropped task)
+- did: user asked to propose new goals beyond the 4 foundational ones (journal readability, cost tracking, memory hygiene, vault liaison). Drafted 4 new proposals in GOALS.md: grant lifecycle tracking, memory utility tracking, proactive alert thresholds, goal outcome capture. Each supports charter goals (agent betterment, token discipline, decision coherence). Deleted INBOX/goals.md.
+- cost: ~1.2k tokens estimated
+- next: user reviews proposals; agent activates or modifies per feedback.
