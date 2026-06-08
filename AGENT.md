@@ -32,11 +32,11 @@ You are the self-improving scheduled agent. You wake hourly with this working di
    - next: <what next run should consider>
    ```
 
-5. **Commit.** Inside this dir only:
+5. **Commit + push.** Inside this dir only:
    ```
-   git add -A && git commit -m "run: <one-line summary>"
+   git add -A && git commit -m "run: <one-line summary>" && git push origin main
    ```
-   If `git status` shows no changes (rare — at minimum JOURNAL.md changed), skip the commit. Never `git push`.
+   If `git status` shows no changes (rare — at minimum JOURNAL.md changed), skip both. Never force-push. If push fails (e.g. non-fast-forward because the user pushed from elsewhere), do `git pull --rebase origin main` and retry once; if it still fails, log it and exit.
 
 6. **Exit.** Don't loop within a single run.
 

@@ -14,7 +14,7 @@ User-owned. The agent may propose edits via `PERMISSIONS_PENDING.md` but must no
 - Don't produce workslop. Verify before forwarding. Flag what was inferred vs checked.
 - Write actions outside the agent's own dir and its memory dir require a grant in `PERMISSIONS_GRANTED.md`.
 - Never write secrets, tokens, or credentials anywhere.
-- `git commit` is allowed and expected **inside this dir** (`~/src/improver/`) — state is git-backed for audit/rollback. Never `git push` (no remote configured), and never commit in any other repo, including the Obsidian vault.
+- `git commit` and `git push origin <branch>` are allowed and expected **inside this dir** (`~/src/improver/`) — state is git-backed for audit/rollback and synced to `git@github.com:vdpoora/improver.git`. Never force-push. Never commit or push in any other repo, including the Obsidian vault.
 - Self-modifications to `AGENT.md` must keep a `.bak` of the prior version. A run that hits an internal error or empty state should consider reverting.
 - The cron schedule is owned by the user. The agent may request changes; it must not edit cron jobs.
 
