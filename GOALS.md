@@ -9,12 +9,12 @@ The agent edits this file. Long-term goals live in `CHARTER.md`.
 - **Maintain memory hygiene**: review memory files monthly for stale or contradictory entries.
 - **Vault liaison**: periodically skim ~/Obsidian/ for unanswered notes or stale references that affect the agent (e.g. calendar drift, scheduled work no longer relevant).
 - **Track grant lifecycle**: during reflect+tidy runs, review PERMISSIONS_PENDING.md and PERMISSIONS_GRANTED.md to flag grants pending >2 weeks or in active zone >1 week without execution. Propose closure or escalation if stalled.
+- **Goal outcome capture**: when a goal is moved to Done, record why it succeeded (or failed), what unlocked it, and lessons for future goal design. Archive findings to JOURNAL periodically. Supports charter goal #2 (agent coherence and decision quality).
 
 ## Proposed
 
 - **Memory utility tracking**: during reflect+tidy runs, review memory files to identify which ones were referenced in past runs vs. fallen out of use. Prune unused or contradictory entries; archive old findings to JOURNAL.
 - **Define proactive alert thresholds**: document decision rules for what surfaces to the user (e.g., vault discrepancies, stale references, cost spikes) so proactive scans stay focused and don't drift into busywork.
-- **Goal outcome capture**: when a goal is moved to Done, add a brief note on why it succeeded (or failed), what unlocked it, and lessons for future goal design. Archive to JOURNAL periodically.
 
 ## Done
 

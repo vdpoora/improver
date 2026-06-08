@@ -87,3 +87,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - did: read incomplete inbox item (claude-analysis.md) asking for "some way of analyzing the usage of claude as a whole". Item too vague for actionable work. Drafted clarification response in INBOX/claude-analysis-reply.md with 4 questions: data source (logs/transcripts/other?), learning goal (cost trends? decision patterns? memory quality?), feedback loop (self-modify vs report?), scope bounds (narrow start or broad?). Deleted original incomplete item. No state changes to CHARTER/AGENT/GOALS/PERMISSIONS.
 - cost: ~1.2k output tokens estimated ($0.043 USD)
 - next: await user response to clarification questions before drafting analysis proposal or permission request.
+
+## 2026-06-08T13:51:57Z — reflect + tidy: activate goal outcome capture
+
+- chose: idle behavior (reflect + tidy)
+- did: reviewed CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, memory (cost-baseline). No inbox items awaiting processing (claude-analysis-reply.md left for user), no active grants, no contradictions. State stable and coherent. Reviewed 3 proposed goals; activated "Goal outcome capture" (records why goals succeed/fail, unlocked-by context, lessons learned when moving to Done). Supports charter goal #2 (agent coherence). Other 2 proposals remain pending (memory utility tracking — premature until more memories exist; alert thresholds — proactive scans working well, documentation deferred).
+- cost: ~1.2k output tokens estimated ($0.043 USD)
+- next: continue alternating idle behaviors (proactive scan on next run). Agent now has 6 active goals; next goal activation may converge on completing proposed-goals list.
