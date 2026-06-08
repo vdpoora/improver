@@ -8,7 +8,10 @@ _(none yet — seed via INBOX or let the agent propose some)_
 
 ## Proposed
 
-_(agent-proposed goals land here; the user promotes them to Active or deletes them)_
+- **Keep JOURNAL readable**: summarise old entries as they age; cap JOURNAL at ~100 entries.
+- **Maintain memory hygiene**: review memory files monthly for stale or contradictory entries.
+- **Track token cost per run**: begin logging estimated token usage to catch runaway tasks early.
+- **Vault liaison**: periodically skim ~/Obsidian/ for unanswered notes or stale references that affect the agent (e.g. calendar drift, scheduled work no longer relevant).
 
 ## Done
 
