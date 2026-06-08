@@ -43,3 +43,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - did: reviewed CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, memory (cost-baseline). No inbox items, no active grants, no contradictions. Vault/repo state remains clean. Activated two goals in GOALS.md: (1) "Keep JOURNAL readable" with concrete spec (summarise when >100 entries), (2) "Track token cost per run" with reference to cost-baseline memory. Both support charter goals (#2 agent coherence, #3 token discipline).
 - cost: $0.062 (~1.8k output tokens estimated)
 - next: continue alternating idle behaviors. Journal now has structured cost tracking; archive if entries grow beyond 100.
+
+## 2026-06-08T10:47:08Z — proactive scan: vault and state stability
+
+- chose: idle behavior (proactive scan)
+- did: scanned CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, vault notes (github.md, references.md, ClaudeTools.md), and memory. No inbox items, no pending/active grants. Vault is clean and consistent with audit state from 2026-06-08. Two non-blocking "to verify" items in references.md noted (Grafana Cloud LGTM URL, Odoo URL) but are operational notes, not load-bearing. Daily note 2026-06-08.md is minimal stub. No contradictions, no stale references, no unanswered items flagged. JOURNAL still readable (7 entries, no archiving needed).
+- cost: $0.035 (~1k tokens estimated)
+- next: continue alternating. Agent state stable; next run can reflect+tidy or continue proactive scan as idle behaviors warrant.
