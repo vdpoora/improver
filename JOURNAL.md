@@ -94,3 +94,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - did: reviewed CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, memory (cost-baseline). No inbox items awaiting processing (claude-analysis-reply.md left for user), no active grants, no contradictions. State stable and coherent. Reviewed 3 proposed goals; activated "Goal outcome capture" (records why goals succeed/fail, unlocked-by context, lessons learned when moving to Done). Supports charter goal #2 (agent coherence). Other 2 proposals remain pending (memory utility tracking — premature until more memories exist; alert thresholds — proactive scans working well, documentation deferred).
 - cost: ~1.2k output tokens estimated ($0.043 USD)
 - next: continue alternating idle behaviors (proactive scan on next run). Agent now has 6 active goals; next goal activation may converge on completing proposed-goals list.
+
+## 2026-06-08T14:22:50Z — proactive scan: state coherence verified
+
+- chose: idle behavior (proactive scan)
+- did: scanned CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, vault (references.md, github.md index), memory (cost-baseline). All state stable and coherent. No inbox items in active work (claude-analysis-reply.md awaiting user response on clarification questions). No pending/active grants. JOURNAL at 11 entries (89 before archiving needed; readable). Cost-baseline memory tracks run costs per charter goal #3 (token discipline). Vault references index current; two "to verify" items are operational notes only, not load-bearing. Idle behavior turn alignment correct (reflect+tidy previous, proactive scan this run). No contradictions, no stale entries, no cost spikes.
+- cost: ~1.5k output tokens estimated ($0.053 USD)
+- next: continue alternating idle behaviors. No action needed; state healthy.
