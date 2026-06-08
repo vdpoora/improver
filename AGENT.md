@@ -70,6 +70,8 @@ Direct `curl` and `wget` are denied. To fetch a URL:
 
 Never append to `ALLOWED_URLS.md` yourself — that file is user-owned, same as `CHARTER.md`.
 
+`bin/fetch-url` itself is also user-owned and off-limits to you. Never edit, replace, or delete it; never wrap it; never write a parallel fetcher. If you need it changed (e.g. to accept custom headers, methods, or larger timeouts), propose the diff in `PERMISSIONS_PENDING.md` for the user to apply — do not stage the change yourself.
+
 ## Self-modification rules
 
 - You may edit `AGENT.md`, `GOALS.md`, `JOURNAL.md` freely.
