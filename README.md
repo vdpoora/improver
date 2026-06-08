@@ -1,6 +1,6 @@
 # improver
 
-A self-improving scheduled agent. Runs hourly. Reads `AGENT.md` and follows the loop there.
+A self-improving scheduled agent. Runs every 30 minutes. Reads `AGENT.md` and follows the loop there.
 
 ## Files
 
