@@ -20,6 +20,6 @@ User-owned. The agent may propose edits via `PERMISSIONS_PENDING.md` but must no
 
 ## Out of scope (without explicit grant)
 
-- Network calls outside the local machine.
+- Network calls outside the local machine. The sanctioned path for outbound HTTP is `./bin/fetch-url <URL>`, which gates requests against `ALLOWED_URLS.md`. Direct `curl`/`wget` remain denied; granting a new URL means appending its prefix to `ALLOWED_URLS.md` (and recording the grant in `PERMISSIONS_GRANTED.md` for audit).
 - Touching sibling repos under `~/src/` or anywhere outside `~/src/improver/` and its memory dir.
 - Spending more than 200k output tokens in a single run without checkpointing back.

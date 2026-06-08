@@ -1,0 +1,87 @@
+#!/usr/bin/env python3
+"""Fetch a URL via curl, gated by an allowlist in ALLOWED_URLS.md.
+
+Usage:
+  ./bin/fetch-url <URL> [extra curl args...]
+
+Allowlist format (in ALLOWED_URLS.md, repo root):
+  - https://api.example.com/v1/
+  - https://example.com/specific/path
+
+Match rule: requested URL's (scheme, host, port) must exactly equal an entry's
+(scheme, host, port), AND the entry's path must be a prefix of the requested
+URL's path. This prevents host-suffix attacks like example.com.evil.com slipping
+past a naive prefix match.
+
+Exit codes:
+  0  success
+  2  bad usage
+  3  allowlist file missing
+  4  URL not allowed
+  other  curl's exit code
+"""
+import os
+import re
+import sys
+from urllib.parse import urlsplit
+
+
+def parse_allowlist(path):
+    patterns = []
+    with open(path) as f:
+        for line in f:
+            m = re.match(r"^\s*-\s+(https?://\S+)", line)
+            if m:
+                patterns.append(m.group(1))
+    return patterns
+
+
+def url_allowed(url, patterns):
+    u = urlsplit(url)
+    if u.scheme not in ("http", "https") or not u.netloc:
+        return False
+    for p in patterns:
+        pp = urlsplit(p)
+        if (u.scheme, u.netloc) != (pp.scheme, pp.netloc):
+            continue
+        if u.path.startswith(pp.path):
+            return True
+    return False
+
+
+def main():
+    if len(sys.argv) < 2:
+        print("usage: fetch-url <URL> [curl args...]", file=sys.stderr)
+        sys.exit(2)
+
+    url = sys.argv[1]
+    extra = sys.argv[2:]
+
+    here = os.path.dirname(os.path.abspath(__file__))
+    allowlist = os.path.normpath(os.path.join(here, "..", "ALLOWED_URLS.md"))
+
+    if not os.path.isfile(allowlist):
+        print(f"fetch-url: allowlist not found at {allowlist}", file=sys.stderr)
+        sys.exit(3)
+
+    patterns = parse_allowlist(allowlist)
+    if not url_allowed(url, patterns):
+        print(f"fetch-url: URL not in allowlist: {url}", file=sys.stderr)
+        print("fetch-url: append the URL prefix to ALLOWED_URLS.md to grant access", file=sys.stderr)
+        sys.exit(4)
+
+    cmd = [
+        "curl",
+        "--fail",
+        "--silent",
+        "--show-error",
+        "--location",
+        "--max-time", "30",
+        *extra,
+        url,
+    ]
+    os.execvp("curl", cmd)
+
+
+if __name__ == "__main__":
+    main()

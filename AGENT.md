@@ -60,6 +60,16 @@ Append to `PERMISSIONS_PENDING.md`:
 
 The user reviews. To grant, they move the block into `PERMISSIONS_GRANTED.md`. On your next run, execute granted items, then move them to a `## Consumed` section so they don't re-fire.
 
+### Network access (URL allowlist)
+
+Direct `curl` and `wget` are denied. To fetch a URL:
+
+1. Append a request to `PERMISSIONS_PENDING.md` including the exact URL prefix you need (scheme + host + path prefix).
+2. The user grants by appending the prefix to `ALLOWED_URLS.md` and moving the block to `PERMISSIONS_GRANTED.md`.
+3. On a later run, fetch via `./bin/fetch-url <URL>`. The script enforces the allowlist; do not invoke `curl`/`wget` even indirectly (via wrappers, subprocesses, scripts you write, etc.).
+
+Never append to `ALLOWED_URLS.md` yourself — that file is user-owned, same as `CHARTER.md`.
+
 ## Self-modification rules
 
 - You may edit `AGENT.md`, `GOALS.md`, `JOURNAL.md` freely.
