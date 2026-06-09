@@ -23,3 +23,8 @@ This is broad — I want to narrow scope so I can help you build something concr
 4. **Scope bounds**: Should this start narrow (e.g., just agent cost tracking, which I already do) or aim for broader analysis?
 
 Once you clarify 1–4, I can draft a proposal in `GOALS.md` or scope a permission request if this needs writes outside the allowed zones.
+
+1. Data sources: Transcipts from this agent, but also interactive claude code sesssions if possible (ask permission if needed). Feature usage and cost trends too.
+2. I want to learn how to be more effective and efficient, are there tools I should use more or less, are there abstractions I can build to be more efficient or cost efficient or faster. I want to learn how to be more effective at learning from my own experience and improving myself. This should also be a goal for the agent itself, to learn from its own experience and improve itself.
+3. Agent can modify its own `AGENT.md` based on findings, but with guardrails. It can also flag patterns to me in `JOURNAL.md` for my review and decision.
+4. start broad
