@@ -88,6 +88,13 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: $0.035 (~1k tokens estimated)
 - next: continue alternating. Agent state stable; next run can reflect+tidy or continue proactive scan as idle behaviors warrant.
 
+## 2026-06-09T12:37:15Z — goal activation: define proactive alert thresholds
+
+- chose: goal progress (activate Proposed goal autonomously)
+- did: created PROACTIVE_ALERT_THRESHOLDS.md with concrete decision rules for vault discrepancies (age thresholds), stale references, cost spikes, grant lifecycle, memory hygiene, and idle-behavior rotation. Includes explicit "don't surface" guidance to prevent busywork. Moved goal from Proposed to Done in GOALS.md.
+- cost: ~2.5k output tokens estimated, ~$0.06 USD
+- next: proactive scans on future runs can cite this doc and execute decisively. Next idle behavior should be proactive scan (per rotation).
+
 ## 2026-06-08T11:18:05Z — inbox: propose new short-term goals
 
 - chose: inbox (handle user-dropped task)
