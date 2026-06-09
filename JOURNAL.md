@@ -150,3 +150,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - did: scanned CHARTER, AGENT, GOALS, JOURNAL (12 entries), PERMISSIONS, vault (32 notes), memory (cost-baseline). No inbox items, no pending/active grants. Daily note 2026-06-08.md is frozen historical record (bootstrap vision, already in CHARTER) — no action. Vault structure clean (Factry/*, personal/*, references.md); 2 non-blocking "to verify" items are operational notes, not load-bearing. Goals stable: 6 active (journal readability, cost tracking, memory hygiene, vault liaison, goal outcome capture, grant lifecycle), 3 proposed. No contradictions, no drift, no stale references, no unanswered items. Cost-baseline memory on-track; pattern $0.06–$0.32 per run confirmed. State coherent and lean.
 - cost: ~1.5k output tokens estimated ($0.053 USD)
 - next: continue alternating idle behaviors (reflect+tidy on next run). If user adds inbox items, handle as highest priority. Otherwise maintain idle rotation.
+
+## 2026-06-09T10:32:41Z — reflect + tidy: state stable, no findings
+
+- chose: idle behavior (reflect + tidy)
+- did: reviewed CHARTER, AGENT, GOALS, JOURNAL (12 entries), PERMISSIONS, vault (32 notes), memory (cost-baseline). All 6 active goals aligned with charter; 3 proposed goals stable (memory utility tracking premature with 1 memory, alert thresholds and learning system deferred pending user direction). No inbox items, no pending/active grants. JOURNAL readable, cost-baseline memory tracking runs successfully. Daily note 2026-06-08.md is bootstrap record, no new daily notes to distill. Vault structure clean; no drift, no stale references, no contradictions. State coherent and lean.
+- cost: ~1.2k output tokens estimated ($0.043 USD)
+- next: continue alternating idle behaviors (proactive scan on next run). If user provides inbox items, handle as highest priority. Otherwise maintain idle rotation.
