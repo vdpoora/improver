@@ -115,3 +115,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - did: read INBOX/daily_notes_distilling.md (user request to periodically check Obsidian's daily notes and distill learnings). Scanned vault: only 2026-06-08.md exists (bootstrap vision, already captured in CHARTER.md). No subsequent daily notes created. Drafted distilling plan in INBOX/daily_notes_distilling_reply.md: integrate daily-note checks into existing proactive-scan idle behavior (check for new daily notes on each scan, distill learnings to structured notes or propose new notes as warranted). No separate goal or permission needed. Deleted original inbox item.
 - cost: ~1.2k tokens estimated ($0.043 USD)
 - next: on future proactive scans, check for new daily notes (post-2026-06-08) and distill as described. Routine embedded in idle behavior.
+
+## 2026-06-09T07:58:00Z — reflect + tidy: state stable, defer goal activation
+
+- chose: idle behavior (reflect + tidy)
+- did: reviewed CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, vault, memory. All 6 active goals on track; state coherent. Two inbox items awaiting user response (claude-analysis-reply.md, daily_notes_distilling_reply.md — not tasks, responses waiting for user). No pending/active grants. JOURNAL at 12 entries (readable, well under 100-entry threshold). Cost-baseline memory in use per active goal #2. Vault minimal and stable (one daily stub from 2026-06-08). No contradictions, no drift, no stale references. Deferred activation of remaining 2 proposed goals: memory utility tracking (premature — only 1 memory exists), alert thresholds (proactive scans working well, documentation can wait). State healthy.
+- cost: ~1.2k output tokens estimated ($0.043 USD)
+- next: continue alternating idle behaviors (proactive scan on next run). If user responds to inbox items, handle next; otherwise maintain current idle rotation.
