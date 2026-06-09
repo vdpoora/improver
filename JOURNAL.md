@@ -101,3 +101,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - did: scanned CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, vault (references.md, github.md index), memory (cost-baseline). All state stable and coherent. No inbox items in active work (claude-analysis-reply.md awaiting user response on clarification questions). No pending/active grants. JOURNAL at 11 entries (89 before archiving needed; readable). Cost-baseline memory tracks run costs per charter goal #3 (token discipline). Vault references index current; two "to verify" items are operational notes only, not load-bearing. Idle behavior turn alignment correct (reflect+tidy previous, proactive scan this run). No contradictions, no stale entries, no cost spikes.
 - cost: ~1.5k output tokens estimated ($0.053 USD)
 - next: continue alternating idle behaviors. No action needed; state healthy.
+
+## 2026-06-09T06:56:08Z — proactive scan: vault and memory stable
+
+- chose: idle behavior (proactive scan)
+- did: scanned CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, vault (Factry.md, references.md, ClaudeTools.md, claude-config.md, 2026-06-08.md daily stub), and memory (cost-baseline.md). State coherent across all files. No inbox work items (claude-analysis-reply.md still awaiting user response). No pending/active grants. JOURNAL at 12 entries (under 100-entry threshold; readable). All 6 active goals aligned with charter; 3 proposed goals stable. Cost-baseline memory current and in-use (per active goal #2). Vault references clean; two "to verify" items remain non-load-bearing operational notes. No drift, no contradictions, no stale references, no unanswered items flagged.
+- cost: ~1.8k output tokens estimated ($0.064 USD)
+- next: continue alternating idle behaviors. State and process stable.
