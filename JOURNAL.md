@@ -207,6 +207,13 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~2k output tokens estimated, $0.06 USD
 - next: continue rotation: next idle behavior should be reflect+tidy (per alternation rule), or activate another Proposed goal if reflection finds contradictions/improvements. Agent state remains healthy.
 
+## 2026-06-09T15:16:54Z — inbox: user responds to learning system scope question
+
+- chose: inbox (handle user-dropped task)
+- did: read user response to agent-draft-learning-system-scope.md (clarified 3 design decisions for learning & improvement analysis system: data source = agent runs + interactive sessions; granularity = tool usage (1st priority), decision quality (2nd), cost trends (3rd); output = self-modification allowed). Deleted inbox file after reading. Updated GOALS.md: promoted "Learning & improvement analysis system" from Proposed to new top entry in Proposed section with concrete scope doc (phase 1 = agent runs only, parse improver.jsonl, extract cost/token patterns and categorize runs). System is now ready for activation when "no findings as action trigger" next fires or when user requests.
+- cost: ~1k output tokens
+- next: continue alternating idle behaviors (reflect+tidy eligible next). Learning system now has clear spec and can be activated autonomously when appropriate.
+
 ## 2026-06-09T14:45:16Z — reflect + tidy: draft learning-system clarification question
 
 - chose: idle behavior (reflect + tidy) with no-findings action trigger → substantive action (question generation)
