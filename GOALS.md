@@ -13,8 +13,8 @@ The agent edits this file. Long-term goals live in `CHARTER.md`.
 
 ## Proposed
 
+- **Define proactive alert thresholds**: document decision rules for what surfaces to the user (e.g., vault discrepancies, stale references, cost spikes) so proactive scans stay focused and don't drift into busywork. Low effort, high value — enables future proactive scans to run decisively.
 - **Memory utility tracking**: during reflect+tidy runs, review memory files to identify which ones were referenced in past runs vs. fallen out of use. Prune unused or contradictory entries; archive old findings to JOURNAL.
-- **Define proactive alert thresholds**: document decision rules for what surfaces to the user (e.g., vault discrepancies, stale references, cost spikes) so proactive scans stay focused and don't drift into busywork.
 - **Build learning & improvement analysis system**: analyze agent runs and interactive Claude Code sessions to identify patterns (which tools/abstractions work best, cost trends, decision quality). Agent can modify AGENT.md based on findings (with guardrails), surface patterns to user in JOURNAL for review. Scope: start broad, include agent runs and interactive sessions. Supports charter goal #1 (betterment of the user via continuous learning) and #2 (agent coherence via self-reflection).
 
 ## Done

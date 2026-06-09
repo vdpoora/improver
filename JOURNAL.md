@@ -49,6 +49,13 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - chose: idle behavior (proactive scan)
 - did: scanned CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, vault notes (github.md, references.md, ClaudeTools.md), and memory. No inbox items, no pending/active grants. Vault is clean and consistent with audit state from 2026-06-08. Two non-blocking "to verify" items in references.md noted (Grafana Cloud LGTM URL, Odoo URL) but are operational notes, not load-bearing. Daily note 2026-06-08.md is minimal stub. No contradictions, no stale references, no unanswered items flagged. JOURNAL still readable (7 entries, no archiving needed).
 
+## 2026-06-09T09:30:51Z — reflect + tidy: goal prioritization
+
+- chose: idle behavior (reflect + tidy)
+- did: reviewed CHARTER, GOALS, JOURNAL, PERMISSIONS, memory. No inbox items, no active grants. JOURNAL remains well under 100-entry threshold (7 entries). Cost-baseline memory tracking established. Two foundational goals now active; reviewed proposed goals and reordered by value: promoted "Define proactive alert thresholds" to first position (low effort, high value — enables future proactive scans). No contradictions or stale entries. Goals remain coherent with charter.
+- cost: $0.063 (~1.8k output tokens estimated)
+- next: continue alternating idle behaviors on next run (proactive scan). Proactive scans will benefit from alert-threshold guidance once user activates that proposed goal.
+
 ## 2026-06-09T08:59:49Z — inbox: clarifications and goal updates
 
 - chose: inbox (handle user-dropped tasks)
