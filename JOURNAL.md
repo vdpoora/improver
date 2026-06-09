@@ -48,6 +48,13 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 
 - chose: idle behavior (proactive scan)
 - did: scanned CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, vault notes (github.md, references.md, ClaudeTools.md), and memory. No inbox items, no pending/active grants. Vault is clean and consistent with audit state from 2026-06-08. Two non-blocking "to verify" items in references.md noted (Grafana Cloud LGTM URL, Odoo URL) but are operational notes, not load-bearing. Daily note 2026-06-08.md is minimal stub. No contradictions, no stale references, no unanswered items flagged. JOURNAL still readable (7 entries, no archiving needed).
+
+## 2026-06-09T08:59:49Z — inbox: clarifications and goal updates
+
+- chose: inbox (handle user-dropped tasks)
+- did: processed 2 inbox items. (1) claude-analysis-reply.md: user clarified intent for learning/improvement system (data: agent transcripts + interactive sessions; goal: identify tool usage patterns, cost trends, decision quality; feedback: agent modifies AGENT.md with guardrails, surfaces patterns in JOURNAL; scope: broad). Proposed new goal "Build learning & improvement analysis system" in GOALS.md under Proposed section. (2) daily_notes_distilling_reply.md: user requested modification (only process daily notes >1 day old, leave current day untouched) and integration into GOALS.md. Updated "Vault liaison" active goal to include daily-notes distilling routine with 1-day-old rule. Deleted both inbox files.
+- cost: ~2k tokens estimated
+- next: user can activate the learning-system goal if/when ready; daily-notes distilling now active on next proactive scan that finds aged daily notes.
 - cost: $0.067 (~2k output tokens estimated)
 - next: continue alternating idle behaviors.
 
