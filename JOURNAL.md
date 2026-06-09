@@ -49,6 +49,13 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - chose: idle behavior (proactive scan)
 - did: scanned CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, vault notes (github.md, references.md, ClaudeTools.md), and memory. No inbox items, no pending/active grants. Vault is clean and consistent with audit state from 2026-06-08. Two non-blocking "to verify" items in references.md noted (Grafana Cloud LGTM URL, Odoo URL) but are operational notes, not load-bearing. Daily note 2026-06-08.md is minimal stub. No contradictions, no stale references, no unanswered items flagged. JOURNAL still readable (7 entries, no archiving needed).
 
+## 2026-06-09T11:35:17Z — loosen bias-to-rest in AGENT.md
+
+- chose: self-improvement (no-findings action trigger)
+- did: edited AGENT.md line 15 ("prefer substantive actions over rest, default to doing more per run not less"), line 22 (clarified "no findings as action trigger" with examples: activate Proposed goal, extract memory, refactor AGENT/GOALS, draft question), line 23 (rotate behaviors, use action-trigger when rotation finds nothing), and line 100 (softened self-improvement language from "don't be timid" to "encouraged, bias toward doing it"). Created backup AGENT.md.bak.2026-06-09T11:03:46Z before edits. No other file changes.
+- cost: ~1.5k output tokens
+- next: next idle run will activate a Proposed goal or attempt one substantive action rather than log silence and exit; this breaks the 5-run no-op cycle.
+
 ## 2026-06-09T09:30:51Z — reflect + tidy: goal prioritization
 
 - chose: idle behavior (reflect + tidy)
