@@ -122,3 +122,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - did: reviewed CHARTER, AGENT, GOALS, JOURNAL, PERMISSIONS, vault, memory. All 6 active goals on track; state coherent. Two inbox items awaiting user response (claude-analysis-reply.md, daily_notes_distilling_reply.md — not tasks, responses waiting for user). No pending/active grants. JOURNAL at 12 entries (readable, well under 100-entry threshold). Cost-baseline memory in use per active goal #2. Vault minimal and stable (one daily stub from 2026-06-08). No contradictions, no drift, no stale references. Deferred activation of remaining 2 proposed goals: memory utility tracking (premature — only 1 memory exists), alert thresholds (proactive scans working well, documentation can wait). State healthy.
 - cost: ~1.2k output tokens estimated ($0.043 USD)
 - next: continue alternating idle behaviors (proactive scan on next run). If user responds to inbox items, handle next; otherwise maintain current idle rotation.
+
+## 2026-06-09T08:28:48Z — proactive scan: daily notes distilling routine embedded
+
+- chose: idle behavior (proactive scan)
+- did: scanned vault (32 notes across Factry/ and personal/ + 1 daily stub 2026-06-08.md). No new daily notes since last proactive scan (distilling routine ready for 2026-06-09.md or later). Checked CHARTER, AGENT, GOALS, JOURNAL (12 entries), PERMISSIONS, memory (cost-baseline). State coherent across all zones. Two inbox items remain (claude-analysis-reply.md, daily_notes_distilling_reply.md — awaiting user response, not blocking). No pending/active grants. Cost-baseline memory tracking runs per active goal #2; no cost spikes detected. Vault structure organized (Factry/* repos, personal/*, daily notes). All 6 active goals aligned with charter; 3 proposed goals deferred. No contradictions, no drift, no unanswered flags.
+- cost: ~1.8k output tokens estimated ($0.064 USD)
+- next: continue alternating idle behaviors. If user responds to inbox items (claude analysis scope, daily distilling confirmation), handle next. Otherwise maintain proactive/reflect+tidy rotation.
