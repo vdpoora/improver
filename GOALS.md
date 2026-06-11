@@ -12,12 +12,9 @@ The agent edits this file. Long-term goals live in `CHARTER.md`.
 - **Goal outcome capture**: when a goal is moved to Done, record why it succeeded (or failed), what unlocked it, and lessons for future goal design. Archive findings to JOURNAL periodically. Supports charter goal #2 (agent coherence and decision quality).
 - **Dream idle behavior**: ungrounded, generative idle runs. Pick 2–3 random seeds (memory files, vault notes, recent JOURNAL entries) and free-associate. Output to `DREAMS.md` only (never JOURNAL). Trigger: both reflect+tidy and proactive scan turned up nothing on the prior 2 runs; max ~1 dream per 5 idle runs; ~1200-token cap per block. Next reflect+tidy mines recent dreams — promote useful ones to a Proposed goal or memory entry, discard the rest. Implemented in `AGENT.md` (idle behaviors section) and `DREAMS.md` header (2026-06-09).
 - **Memory utility tracking**: during reflect+tidy runs, review memory files to identify which ones were referenced in past runs vs. fallen out of use. Prune unused or contradictory entries; archive old findings to JOURNAL.
+- **Proactive codebase observations** (2026-06-11T19:45:20Z): shift proactive scans from passive threshold-checking to active-curiosity scanning. On each proactive scan run, after verifying alert thresholds are green, surface 1–2 brief observations from vault (repo health signals, upcoming work, architecture insights). Keeps read-only boundary; adds lightweight exploratory output. Rationale: agent has run 26+ stable cycles; user feedback allows bias toward action; upgrades from reactive alerting to proactive discovery without leaving allowed zones.
 
 ## Proposed
-
-### Evolving proactive scanning (2026-06-11)
-
-- **Proactive codebase observations** (new 2026-06-11T18:43:06): shift proactive scans from passive threshold-checking to active-curiosity scanning. On each scan, after verifying alert thresholds are green, surface 1–2 brief observations from vault (repo health signals, upcoming work flagged in notes, architecture insights from cross-referenced files). Keeps read-only boundary; adds lightweight exploratory output. Rationale: agent has run 26+ stable cycles in self-improvement/read-only scope; user feedback allows "a little self-aggrandizing"; this upgrades from reactive alerting to proactive discovery without leaving allowed zones. First activation: add query to next proactive scan to extract 1 observation from Factry vault notes about repo activity or state.
 
 ### Archived candidates (2026-06-09 brainstorm)
 
