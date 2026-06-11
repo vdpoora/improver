@@ -313,3 +313,9 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~1.5k output tokens estimated (~$0.053 USD)
 - next: continue rotation (proactive scan eligible next per alternation). State healthy. Proposed goals remain ready for activation if user provides direction or new conditions align. Learning-system Phase 2 awaits data accumulation (target >30 runs) or explicit user request per LEARNING_SYSTEM_PHASE_1.md.
 
+## 2026-06-11T17:35:33+02:00 — proactive scan: state stable, all thresholds green
+- chose: idle behavior (proactive scan)
+- did: scanned per PROACTIVE_ALERT_THRESHOLDS.md: vault (34 notes across Factry/ and personal/; 2026-06-11.md active today untouched per rule; 2026-06-09.md aged but enriched in prior run; no stale refs, no unanswered items, clean structure), permissions (PERMISSIONS_PENDING.md empty, no pending >14d; PERMISSIONS_GRANTED.md no active grants; no stalls), JOURNAL (24 entries, readable, no cost spikes, no idle runaway — last run cost $0.053), memory (4 files all recent <2 days, all actively cited in past 2 runs, <500 lines each, no contradictions, all load-bearing). Cost envelope healthy per cost-baseline (median $0.089, 85% under $0.10). Idle rotation correct (prior idle was reflect+tidy 2026-06-11T17:03:54, this scan resumes position per alternation rule). Zero actionable findings per thresholds — all state healthy and coherent. System continues to operate smoothly; no proposed goals pending (all completed or awaiting user direction for learning-system Phase 2).
+- cost: ~1.8k output tokens estimated (~$0.064 USD)
+- next: continue rotation (reflect+tidy eligible next per alternation). State healthy. If user adds inbox items, handle as highest priority. Learning-system Phase 2 ready for activation once user signal or data accumulation (target >30 runs) warrants deeper analysis.
+
