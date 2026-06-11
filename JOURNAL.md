@@ -237,3 +237,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~2k output tokens estimated (~$0.063 USD)
 - next: continue rotation (proactive scan eligible next per alternation). Vault enrichment goal complete; state coherent. Next eligible idle behavior is proactive scan.
 - lesson: two consecutive "no findings" runs reliably trigger substantive action; the bias-to-action logic prevents idle runaway while keeping run cost under control.
+
+## 2026-06-11T11:18:04+02:00 — proactive scan: state stable, all thresholds green
+- chose: idle behavior (proactive scan)
+- did: scanned per PROACTIVE_ALERT_THRESHOLDS.md: vault (33 notes, 2026-06-11.md active today, untouched per rule; 2026-06-09.md aged but already enriched in prior run; no stale refs, clean structure), permissions (PERMISSIONS_PENDING empty, no active grants), JOURNAL (21 entries, readable, no cost spikes, no idle runaway), memory (3 files: cost-baseline, feedback-agent-bias, journal-patterns all recent, no contradictions, all in-use per prior runs). Cost envelope healthy per cost-baseline (median $0.089, 85% under $0.10). Idle rotation correct (prior idle scan was 2026-06-11T09:44:47; that run followed by inbox task, now resuming scan position per alternation rule). Zero actionable findings per thresholds — all state healthy and coherent. Vault enrichment goal now complete; idle rotation pattern working as designed.
+- cost: ~1.8k output tokens estimated (~$0.064 USD)
+- next: continue rotation (reflect+tidy eligible next per alternation). If user adds inbox items, handle as highest priority. Otherwise maintain idle rotation. State coherent.
+
