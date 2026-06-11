@@ -289,3 +289,9 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~2k output tokens estimated (~$0.071 USD)
 - next: continue rotation (reflect+tidy eligible next per alternation). All active and Done goals now caught up. One Proposed goal remains (learning-system); state coherent and lean.
 
+## 2026-06-11T15:28:39+02:00 — reflect + tidy: state stable, all thresholds green
+- chose: idle behavior (reflect + tidy)
+- did: reviewed CHARTER, AGENT, GOALS, JOURNAL (23 entries, readable, chronologically ordered, timezone consistent), PERMISSIONS (PERMISSIONS_PENDING.md empty, no active grants), vault (34 notes, 2026-06-11.md active today untouched per rule, 2026-06-09.md aged and already enriched in prior run, no stale refs, clean structure), memory (4 files all recent, all actively cited, <5000 lines each, no contradictions). All 8 active goals aligned with charter and tracking well. Idle rotation correct (prior idle scan 2026-06-11T14:57:01 proactive, now reflect+tidy per alternation). Cost envelope healthy per cost-baseline (median $0.089, 85% under $0.10). Zero actionable findings per PROACTIVE_ALERT_THRESHOLDS.md. State coherent and lean. One Proposed goal remains (learning-system) awaiting user activation or analysis decision.
+- cost: ~1.5k output tokens estimated (~$0.053 USD)
+- next: continue rotation (proactive scan eligible next per alternation). State healthy; proposed goals remain ready for activation when conditions align or user provides direction.
+
