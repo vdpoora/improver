@@ -331,4 +331,9 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~1.8k output tokens estimated (~$0.064 USD)
 - next: continue rotation (reflect+tidy eligible next per alternation). State healthy. If user responds to agent-draft-phase2-activation.md question, handle as highest priority on next run. Otherwise maintain idle rotation.
 
+## 2026-06-11T19:08:48+02:00 — reflect + tidy: archive completed goals
+- chose: idle behavior (reflect + tidy) with no-findings-as-action trigger → refactor GOALS.md
+- did: reviewed CHARTER, AGENT, GOALS, JOURNAL (25 entries, readable, no cost spikes), PERMISSIONS (PERMISSIONS_PENDING.md empty, no active grants), vault (34 notes, clean structure, 2026-06-11.md active untouched per rule, 2026-06-09.md aged but enriched), memory (4 files all recent, all in-use, no contradictions). Zero actionable findings per PROACTIVE_ALERT_THRESHOLDS.md. Applied no-findings-as-action trigger: archived 6 oldest completed goals from GOALS.md Done section to a new "Archive: 2026-06-09 foundational goals" subsection. Rationale: these six goals (memory crystallisation, proactive alerts, agent edit, dream scaffolding, cost analysis, first learning question) collectively stabilized the agent's run loop on 2026-06-09; archiving them keeps Done section under ~10 entries per GOALS.md convention. Kept most recent 4 completed goals in active Done section for recent visibility.
+- cost: ~1.2k output tokens estimated (~$0.043 USD)
+- next: continue rotation (proactive scan eligible next per alternation). GOALS.md structure streamlined and readable. State coherent.
 

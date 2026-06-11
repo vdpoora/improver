@@ -25,13 +25,6 @@ Context: last 5+ idle runs all logged "state stable, no findings" at ~$0.05 each
 
 ## Done
 
-- **Memory crystallisation idle behavior** (2026-06-09T13:08:52Z): extracted 6 recurring patterns from JOURNAL (idle behavior effectiveness, grant cadence, vault cleanliness, cost envelope, goal activation pace, no-findings-as-action trigger) into new memory file journal-patterns.md. Indexed in MEMORY.md. Supports active "maintain memory hygiene" goal.
-- **Define proactive alert thresholds** (2026-06-09): created PROACTIVE_ALERT_THRESHOLDS.md documenting decision rules for vault discrepancies, stale references, cost spikes, memory hygiene, and grant lifecycle. Thresholds are concrete (age cutoffs, cost multiples, count thresholds) and include explicit "don't surface" guidance to keep proactive scans focused and prevent busywork. Enables next-run proactive scans to execute decisively.
-- **Loosen bias-to-rest in AGENT.md** (2026-06-09): edited AGENT.md line 15 to explicitly bias toward action, and line 100 to enable self-improvement as primary action. Unblocks autonomous goal activation and bolder per-run decision-making. Enabled by user feedback (2026-06-09) after 5 no-op runs; reverses the over-applied "when in doubt, do less" charter principle.
-- **Implement dream idle behavior** (2026-06-09): added the third idle behavior to `AGENT.md` (trigger, budget, output channel, follow-up rule) and created `DREAMS.md` with header + format spec. Paired with reflect+tidy as the crystallisation step. Activated by user request during interactive session; bias-to-action context.
-- **Cost-pattern analysis from .logs/*.jsonl** (2026-06-09T14:12:14Z): parsed 2026-06-08 run log (13 runs, 1.3M stream-json). Computed cost distribution: median $0.089 USD, 85% under $0.10, 1 outlier at $0.32 (multi-repo audit). Updated cost-baseline.md with findings and decision rules. Analysis directly supports active "track token cost per run" goal.
-- **Question generation for the user** (2026-06-09T14:45:16Z): drafted inbox question about learning & improvement analysis system scope (data sources, learning granularity, output mode). Frames three clarifying questions to help user guide next activation of the learning system or simpler proposed goals. Question created as agent-draft-learning-system-scope.md for user review. Enables better alignment before starting analysis work.
-
 - **Vault enrichment** (2026-06-11T10:46:33Z): distilled 2026-06-09.md daily note (aged >1 day, contains actionable knowledge). Added ArgoCD/Hatchry deployment context to historian-server.md, created new hatchry.md infrastructure note, updated internal.md to reference Marp tool. Vault structure enriched, no vault commits (per charter). Supports active "vault liaison" and "maintain memory hygiene" goals.
 
 - **Memory utility tracking** (2026-06-11T14:25:42Z): executed active goal by reviewing all 4 memory files for recent-run citations and utility. All 4 (cost-baseline, feedback-agent-bias, journal-patterns, idle-rotation-pattern) actively cited within 2 days; no contradictions, no utility gaps, no consolidations needed. Conclusion: memory hygiene is healthy and all memories are load-bearing. Completed first full cycle of active goal as specified in GOALS.md.
@@ -43,3 +36,14 @@ Context: last 5+ idle runs all logged "state stable, no findings" at ~$0.05 each
 - **Question generation for the user** (2026-06-11T16:06:36Z): drafted agent-draft-phase2-activation.md into INBOX/ offering three options for next focus direction (Phase 2 data accumulation vs. pivot to active exploration vs. tighten idle cycle). Turns idle silence into a structured prompt. Activated via no-findings-as-action trigger from reflect+tidy. Cost: ~1.8k output tokens. Next: awaiting user response or continuation of idle rotation if ignored.
 
 _(completed goals — keep last ~10, archive older to JOURNAL)_
+
+### Archive: 2026-06-09 foundational goals
+
+The following six goals were the first automation targets on 2026-06-09, completed that day. They established the baseline guardrails and enable all subsequent cycles: memory crystallisation (journal-patterns.md), proactive alert thresholds, bias-to-action via AGENT.md edit, dream idle behavior scaffolding, cost-pattern analysis (cost-baseline.md), and the first learning-system clarification question. These goals collectively stabilised the agent's run loop and prevented idle runaway. Archived 2026-06-11T19:08:48Z.
+
+- **Memory crystallisation idle behavior** (2026-06-09T13:08:52Z)
+- **Define proactive alert thresholds** (2026-06-09)
+- **Loosen bias-to-rest in AGENT.md** (2026-06-09)
+- **Implement dream idle behavior** (2026-06-09)
+- **Cost-pattern analysis from .logs/*.jsonl** (2026-06-09T14:12:14Z)
+- **Question generation for the user** (2026-06-09T14:45:16Z)
