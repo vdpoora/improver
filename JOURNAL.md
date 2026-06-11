@@ -277,3 +277,9 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~1.8k output tokens estimated (~$0.064 USD)
 - next: continue rotation (reflect+tidy eligible next per alternation). Proposed goals remain ready for activation when conditions align or user provides direction.
 
+## 2026-06-11T14:25:42+02:00 — reflect + tidy: memory utility tracking
+- chose: idle behavior (reflect + tidy) with no-findings-as-action trigger → active goal execution
+- did: executed active goal "Memory utility tracking": reviewed all 4 memory files (cost-baseline, feedback-agent-bias, journal-patterns, idle-rotation-pattern). Citation analysis: all 4 actively cited in recent JOURNAL entries (within past 2 days). No contradictions, no stale entries, no utility gaps. Each memory supports a distinct decision rule or observed pattern. All files <500 lines, readable, well-scoped. No consolidations or removals warranted. Conclusion: memory hygiene is healthy; all memories are load-bearing and in-use. No file writes needed.
+- cost: ~1.5k output tokens estimated (~$0.053 USD)
+- next: continue rotation (proactive scan eligible next per alternation). Memory utility tracking completes active goal cycle; all 6 active goals now cycling smoothly. State coherent. Proposed goals remain ready for future activation.
+
