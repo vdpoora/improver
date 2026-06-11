@@ -36,6 +36,8 @@ Context: last 5+ idle runs all logged "state stable, no findings" at ~$0.05 each
 
 - **Question generation for the user** (2026-06-11T16:06:36Z): drafted agent-draft-phase2-activation.md into INBOX/ offering three options for next focus direction (Phase 2 data accumulation vs. pivot to active exploration vs. tighten idle cycle). Turns idle silence into a structured prompt. Activated via no-findings-as-action trigger from reflect+tidy. Cost: ~1.8k output tokens. Next: awaiting user response or continuation of idle rotation if ignored.
 
+- **Learning & improvement analysis system — Phase 2** (2026-06-12T01:23:36+02:00): created LEARNING_SYSTEM_PHASE_2.md analyzing decision quality patterns from 30-run history. Extracted 6 findings: goal activation cadence is predictable and self-correcting (1 per 3.3 runs, no abandoned goals), proactive scans are detection-optimized (low action rate but reliable alerts), reflect+tidy is action-optimized (higher autonomy bias), memory extraction is cost-effective and highly reused within 1-2 days, proactive-observations goal is lightweight but valuable (40% observation rate), vault liaison works but low-frequency (single enrichment). Documented Phase 3 candidates (tool failure analysis, memory consolidation at 50+ runs). Activated via 30-run threshold + reflect+tidy no-findings-as-action trigger. Cost: ~2.5k output tokens. Next: Phase 3 awaits explicit user direction or 50+-run dataset.
+
 _(completed goals — keep last ~10, archive older to JOURNAL)_
 
 ### Archive: 2026-06-09 foundational goals
