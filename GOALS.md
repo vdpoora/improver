@@ -16,8 +16,6 @@ The agent edits this file. Long-term goals live in `CHARTER.md`.
 ## Proposed
 
 - **Learning & improvement analysis system**: analyze patterns from agent runs (improver.jsonl logs) and interactive Claude Code sessions to identify: (1) tool usage patterns (which agents/tools/workflows succeed/fail), (2) decision quality (when agent+user pairs make good vs bad choices), (3) cost trends (token drift, per-category baselines). Data source: agent runs + interactive sessions. Output: self-modifications to AGENT.md when pattern is clear, advisory reports to JOURNAL otherwise. First phase: parse improver.jsonl, build cost/token baseline per category (idle vs goal vs grant runs), surface outliers. Phased activation (phase 1: agent runs only, phase 2: add interactive sessions).
-- **Vault enrichment (write variant of vault liaison)**: distill daily notes >1 day old into per-topic notes with `[[wikilinks]]`, refresh owner-level indexes. Bounded scope, already half-implied by the active vault-liaison goal. Do not commit vault (per charter); writes only.
-- **Self-audit of AGENT.md**: once every N runs, diff AGENT.md against actually-observed behavior from JOURNAL. Surface contradictions or unused branches as proposals in GOALS.md, or edit AGENT.md directly (with `.bak`) when the gap is obvious. Closes the loop for the deferred "learning & improvement analysis" proposal above.
 
 ### New idle-behavior candidates (2026-06-09 brainstorm)
 
@@ -38,5 +36,9 @@ Context: last 5+ idle runs all logged "state stable, no findings" at ~$0.05 each
 - **Question generation for the user** (2026-06-09T14:45:16Z): drafted inbox question about learning & improvement analysis system scope (data sources, learning granularity, output mode). Frames three clarifying questions to help user guide next activation of the learning system or simpler proposed goals. Question created as agent-draft-learning-system-scope.md for user review. Enables better alignment before starting analysis work.
 
 - **Vault enrichment** (2026-06-11T10:46:33Z): distilled 2026-06-09.md daily note (aged >1 day, contains actionable knowledge). Added ArgoCD/Hatchry deployment context to historian-server.md, created new hatchry.md infrastructure note, updated internal.md to reference Marp tool. Vault structure enriched, no vault commits (per charter). Supports active "vault liaison" and "maintain memory hygiene" goals.
+
+- **Memory utility tracking** (2026-06-11T14:25:42Z): executed active goal by reviewing all 4 memory files for recent-run citations and utility. All 4 (cost-baseline, feedback-agent-bias, journal-patterns, idle-rotation-pattern) actively cited within 2 days; no contradictions, no utility gaps, no consolidations needed. Conclusion: memory hygiene is healthy and all memories are load-bearing. Completed first full cycle of active goal as specified in GOALS.md.
+
+- **Self-audit of AGENT.md** (2026-06-11T14:57:01Z): diffed AGENT.md against observed JOURNAL behavior to verify coherence. Findings: AGENT.md accurately documents behavior (lines 15–27 bias-to-action and no-findings trigger observed correctly in runs 2026-06-11T10:47:14 and 2026-06-11T12:52:36; idle rotation rule working per idle-rotation-pattern.md; timestamp/timezone consistency confirmed). AGENT.md and behavior are aligned; no contradictions or unused branches detected.
 
 _(completed goals — keep last ~10, archive older to JOURNAL)_

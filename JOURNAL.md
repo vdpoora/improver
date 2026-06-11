@@ -283,3 +283,9 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~1.5k output tokens estimated (~$0.053 USD)
 - next: continue rotation (proactive scan eligible next per alternation). Memory utility tracking completes active goal cycle; all 6 active goals now cycling smoothly. State coherent. Proposed goals remain ready for future activation.
 
+## 2026-06-11T14:57:01+02:00 — proactive scan: state stable, activate self-audit goal
+- chose: idle behavior (proactive scan) with no-findings-as-action trigger → goal activation
+- did: scanned per PROACTIVE_ALERT_THRESHOLDS.md: vault (2026-06-11.md active today untouched per rule, 2026-06-09.md aged but enriched in prior run, no stale refs, no unanswered items), permissions (PERMISSIONS_PENDING.md empty, no active grants), JOURNAL (23 entries, readable, no cost spikes, no idle runaway), memory (4 files all recent, all in-use, <500 lines each, no contradictions). Cost envelope healthy per cost-baseline (median $0.089, 85% under $0.10). Zero actionable findings per thresholds. Applied no-findings-as-action trigger: activated Proposed goal "Self-audit of AGENT.md" — diffed AGENT.md against observed JOURNAL behavior to verify coherence. Findings: AGENT.md accurately documents behavior (lines 15–27 bias-to-action and no-findings trigger observed correctly in runs 2026-06-11T10:47:14 and 2026-06-11T12:52:36; idle rotation rule working per idle-rotation-pattern.md; timestamp/timezone consistency confirmed; no contradictions). Conclusion: AGENT.md and behavior are aligned. Moved goal from Proposed to Done in GOALS.md.
+- cost: ~2k output tokens estimated (~$0.071 USD)
+- next: continue rotation (reflect+tidy eligible next per alternation). All active and Done goals now caught up. One Proposed goal remains (learning-system); state coherent and lean.
+
