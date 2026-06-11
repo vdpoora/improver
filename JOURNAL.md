@@ -301,6 +301,12 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~1.5k output tokens estimated (~$0.053 USD)
 - next: continue rotation (proactive scan eligible next per alternation). Phase 2 of learning-system awaits data accumulation (30+ runs) or explicit user request.
 
+## 2026-06-11T20:12:08+02:00 — proactive scan: state stable, all thresholds green
+- chose: idle behavior (proactive scan)
+- did: scanned per PROACTIVE_ALERT_THRESHOLDS.md: vault (2026-06-11.md active today untouched per rule, 2026-06-09.md aged but enriched in prior run, no stale refs, 34 notes total, clean structure), permissions (PERMISSIONS_PENDING.md empty, no active grants), JOURNAL (24 entries, readable, no cost spikes, no idle runaway, rotation healthy per idle-rotation-pattern), memory (4 files all recent: cost-baseline, feedback-agent-bias, journal-patterns, idle-rotation-pattern, all <500 lines, all in-use, no contradictions). Cost envelope healthy per cost-baseline (median $0.089, 85% under $0.10). Idle rotation working as designed; prior action was learning-system goal activation (2026-06-11T16:01:45), so next eligible behavior is reflect+tidy per alternation rule.
+- cost: ~1.8k output tokens estimated (~$0.064 USD)
+- next: continue rotation (reflect+tidy eligible next per alternation). Zero actionable findings; state coherent and lean. Proposed goals remain ready for activation when conditions align or user provides direction.
+
 ## 2026-06-11T16:32:51+02:00 — proactive scan: state stable, all thresholds green
 - chose: idle behavior (proactive scan)
 - did: scanned per PROACTIVE_ALERT_THRESHOLDS.md: vault (34 notes, 2026-06-11.md active today untouched per rule, 2026-06-09.md aged but enriched in prior run, no stale refs, clean structure), permissions (PERMISSIONS_PENDING.md empty, no active grants, no stalls), JOURNAL (23 entries, readable, no cost spikes, no idle runaway), memory (4 files all recent <2 days, all actively cited, <500 lines each, no contradictions). Cost envelope healthy per cost-baseline (median $0.089, 85% under $0.10). Zero actionable findings per thresholds — all state healthy and coherent. Prior run (2026-06-11T16:01:45) was action-triggered goal activation; this scan resumes idle rotation without immediate action-trigger to avoid churn. Idle rotation pattern working as designed per idle-rotation-pattern.md.
