@@ -295,3 +295,9 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~1.5k output tokens estimated (~$0.053 USD)
 - next: continue rotation (proactive scan eligible next per alternation). State healthy; proposed goals remain ready for activation when conditions align or user provides direction.
 
+## 2026-06-11T16:01:45+02:00 — learning system Phase 1: extract decision rules
+- chose: idle behavior triggered by no-findings (action trigger) → goal activation
+- did: two consecutive idle runs (proactive scan 2026-06-11T14:57:01, reflect+tidy 2026-06-11T15:28:39) found no actionable findings. Per AGENT.md line 27 (no-findings-as-action trigger), activated Proposed goal "Learning & improvement analysis system" Phase 1. Audited cost-baseline.md + journal-patterns.md + JOURNAL to extract decision rules. Created LEARNING_SYSTEM_PHASE_1.md documenting 5 findings: (1) cost discipline (median $0.089, 85% under $0.10, no runs >$0.12 except known outlier), (2) idle-behavior rotation effectiveness (30% finding rate, action-on-silence pattern working well, no silent no-ops since bias-to-rest loosened), (3) grant-protocol efficiency (no stalls >7d active or >14d pending), (4) goal-activation cadence (1 goal per 2–3 runs, sustainable pace), (5) memory hygiene (all 4 files load-bearing, no contradictions). Documented Phase 2 recommendations (tool usage patterns, decision quality, interactive sessions, self-modification impact analysis). Updated GOALS.md: moved learning-system from Proposed to Done. Vault remains stable (no new aged daily notes since last enrichment).
+- cost: ~1.5k output tokens estimated (~$0.053 USD)
+- next: continue rotation (proactive scan eligible next per alternation). Phase 2 of learning-system awaits data accumulation (30+ runs) or explicit user request.
+

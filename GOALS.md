@@ -15,8 +15,6 @@ The agent edits this file. Long-term goals live in `CHARTER.md`.
 
 ## Proposed
 
-- **Learning & improvement analysis system**: analyze patterns from agent runs (improver.jsonl logs) and interactive Claude Code sessions to identify: (1) tool usage patterns (which agents/tools/workflows succeed/fail), (2) decision quality (when agent+user pairs make good vs bad choices), (3) cost trends (token drift, per-category baselines). Data source: agent runs + interactive sessions. Output: self-modifications to AGENT.md when pattern is clear, advisory reports to JOURNAL otherwise. First phase: parse improver.jsonl, build cost/token baseline per category (idle vs goal vs grant runs), surface outliers. Phased activation (phase 1: agent runs only, phase 2: add interactive sessions).
-
 ### New idle-behavior candidates (2026-06-09 brainstorm)
 
 Context: last 5+ idle runs all logged "state stable, no findings" at ~$0.05 each. **User feedback (2026-06-09): the agent could be less careful** — bias toward action, not rest. Also: **a little bit of self-aggrandizing is allowed** — the AGENT.md line "Not self-aggrandisement" is loosened; spending effort on the agent's own coherence/capability is a legitimate use of a run. The candidates below are re-ordered with that in mind: action-biased ones first, the explicit-rest option dropped to last as a deliberate counterweight rather than a primary recommendation.
@@ -40,5 +38,7 @@ Context: last 5+ idle runs all logged "state stable, no findings" at ~$0.05 each
 - **Memory utility tracking** (2026-06-11T14:25:42Z): executed active goal by reviewing all 4 memory files for recent-run citations and utility. All 4 (cost-baseline, feedback-agent-bias, journal-patterns, idle-rotation-pattern) actively cited within 2 days; no contradictions, no utility gaps, no consolidations needed. Conclusion: memory hygiene is healthy and all memories are load-bearing. Completed first full cycle of active goal as specified in GOALS.md.
 
 - **Self-audit of AGENT.md** (2026-06-11T14:57:01Z): diffed AGENT.md against observed JOURNAL behavior to verify coherence. Findings: AGENT.md accurately documents behavior (lines 15–27 bias-to-action and no-findings trigger observed correctly in runs 2026-06-11T10:47:14 and 2026-06-11T12:52:36; idle rotation rule working per idle-rotation-pattern.md; timestamp/timezone consistency confirmed). AGENT.md and behavior are aligned; no contradictions or unused branches detected.
+
+- **Learning & improvement analysis system — Phase 1** (2026-06-11T16:00+02:00): created LEARNING_SYSTEM_PHASE_1.md documenting decision rules from cost-baseline + journal-patterns + JOURNAL audit. Extracted 5 findings: cost discipline (median $0.089, 85% under $0.10), idle-behavior rotation effectiveness (30% finding rate, action-on-silence pattern working), grant-protocol efficiency (no stalls), goal-activation cadence (1 goal per 2–3 runs, sustainable), memory hygiene (all 4 files load-bearing). Documented Phase 2 recommendations (tool usage patterns, decision quality, interactive sessions, self-modification impact). Activated via no-findings-as-action trigger from proactive scan (2026-06-11T14:57:01). Cost: ~1.5k output tokens. Next: Phase 2 awaits data accumulation or explicit user request.
 
 _(completed goals — keep last ~10, archive older to JOURNAL)_
