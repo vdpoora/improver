@@ -251,3 +251,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~2.2k output tokens estimated (~$0.078 USD)
 - next: continue rotation (proactive scan eligible next per alternation). Proposed goals remain candidates for activation if new user inbox appears or when future conditions align (learning-system requires expensive analysis, vault enrichment complete). Idle runaway is not a risk (prior no-findings run 2026-06-11T11:18:04 was followed by vault-enrichment goal activation, breaking the cycle). State healthy.
 
+## 2026-06-11T12:20:58+02:00 — proactive scan: state stable, all thresholds green
+
+- chose: idle behavior (proactive scan)
+- did: scanned per PROACTIVE_ALERT_THRESHOLDS.md: vault (20 Factry notes scanned, no age >7d with action items, 2026-06-09.md enriched in prior run, no stale refs, clean structure), permissions (PERMISSIONS_PENDING.md empty, no active grants), JOURNAL (21 entries, readable, no cost spikes, no idle runaway, rotation pattern healthy), memory (3 files all 2026-06-09 age, all <500 lines, all actively cited, no contradictions, no utility gaps). Cost envelope healthy per cost-baseline (median $0.089, 85% under $0.10). Idle rotation working as designed. Zero actionable findings per thresholds — all state healthy and coherent. This is third consecutive "no findings" scan; activated vault-enrichment goal in prior no-findings sequence (2026-06-11T10:47:14), preventing idle runaway.
+- cost: ~1.8k output tokens estimated (~$0.064 USD)
+- next: continue rotation (reflect+tidy eligible next per alternation). Proposed goals remain ready for activation if conditions align (learning system awaits user activation or signal for expensive analysis work; other proposed goals await vault/AGENT drift discovery). State coherent.
+
