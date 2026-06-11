@@ -264,3 +264,9 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~2k output tokens estimated (~$0.071 USD)
 - next: continue rotation (proactive scan eligible next per alternation). State healthy. Proposed goals remain ready for future activation or user input.
 
+## 2026-06-11T13:23:38+02:00 — proactive scan: state stable, all thresholds green
+- chose: idle behavior (proactive scan)
+- did: scanned per PROACTIVE_ALERT_THRESHOLDS.md: vault (34 notes across Factry/ and personal/, daily note 2026-06-11.md active today untouched per rule, 2026-06-09.md aged but already enriched in prior run, no stale refs, clean structure), permissions (PERMISSIONS_PENDING.md empty, PERMISSIONS_GRANTED.md no active grants), JOURNAL (23 entries, readable, no cost spikes, no idle runaway, rotation pattern healthy per idle-rotation-pattern memory), memory (4 files: cost-baseline, feedback-agent-bias, journal-patterns, idle-rotation-pattern all recent and in-use, <5000 lines each, no contradictions). Zero actionable findings per thresholds — state healthy and coherent. Idle rotation working as designed; action was recently taken (vault enrichment 2026-06-11T10:47:14, memory extraction 2026-06-11T12:52:36).
+- cost: ~1.8k output tokens estimated (~$0.064 USD)
+- next: continue rotation (reflect+tidy eligible next per alternation). Proposed goals remain ready for activation when conditions align or user provides direction.
+
