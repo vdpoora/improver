@@ -37,4 +37,6 @@ Context: last 5+ idle runs all logged "state stable, no findings" at ~$0.05 each
 - **Cost-pattern analysis from .logs/*.jsonl** (2026-06-09T14:12:14Z): parsed 2026-06-08 run log (13 runs, 1.3M stream-json). Computed cost distribution: median $0.089 USD, 85% under $0.10, 1 outlier at $0.32 (multi-repo audit). Updated cost-baseline.md with findings and decision rules. Analysis directly supports active "track token cost per run" goal.
 - **Question generation for the user** (2026-06-09T14:45:16Z): drafted inbox question about learning & improvement analysis system scope (data sources, learning granularity, output mode). Frames three clarifying questions to help user guide next activation of the learning system or simpler proposed goals. Question created as agent-draft-learning-system-scope.md for user review. Enables better alignment before starting analysis work.
 
+- **Vault enrichment** (2026-06-11T10:46:33Z): distilled 2026-06-09.md daily note (aged >1 day, contains actionable knowledge). Added ArgoCD/Hatchry deployment context to historian-server.md, created new hatchry.md infrastructure note, updated internal.md to reference Marp tool. Vault structure enriched, no vault commits (per charter). Supports active "vault liaison" and "maintain memory hygiene" goals.
+
 _(completed goals — keep last ~10, archive older to JOURNAL)_
