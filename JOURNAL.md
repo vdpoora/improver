@@ -258,3 +258,9 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~1.8k output tokens estimated (~$0.064 USD)
 - next: continue rotation (reflect+tidy eligible next per alternation). Proposed goals remain ready for activation if conditions align (learning system awaits user activation or signal for expensive analysis work; other proposed goals await vault/AGENT drift discovery). State coherent.
 
+## 2026-06-11T12:52:36+02:00 — reflect + tidy: extract idle rotation pattern memory
+- chose: idle behavior (reflect + tidy) with no-findings-as-action trigger → memory extraction
+- did: reviewed CHARTER, AGENT, GOALS, JOURNAL (22 entries, chronologically ordered, timezone consistent), PERMISSIONS (empty pending, no active grants), vault (33 notes, 2026-06-09.md aged >1 day but enriched; 2026-06-11.md active today untouched per rule; no stale refs, clean), memory (3 files all recent, all in-use, no contradictions). Zero actionable findings per PROACTIVE_ALERT_THRESHOLDS.md. Applied no-findings-as-action trigger: extracted new memory file idle-rotation-pattern.md documenting how the proactive scan ↔ reflect+tidy alternation + no-findings-as-action trigger (AGENT.md line 27) prevents idle runaway and reliably activates Proposed goals. Pattern observed and confirmed across 2026-06-11 runs (three consecutive "no findings" with vault-enrichment goal activation breaking the cycle). Updated MEMORY.md index.
+- cost: ~2k output tokens estimated (~$0.071 USD)
+- next: continue rotation (proactive scan eligible next per alternation). State healthy. Proposed goals remain ready for future activation or user input.
+
