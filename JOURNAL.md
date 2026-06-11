@@ -102,6 +102,13 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 
 - chose: inbox (handle user-dropped task)
 - did: read INBOX/daily_notes_distilling.md (user request to periodically check Obsidian's daily notes and distill learnings). Scanned vault: only 2026-06-08.md exists (bootstrap vision, already captured in CHARTER.md). No subsequent daily notes created. Drafted distilling plan in INBOX/daily_notes_distilling_reply.md: integrate daily-note checks into existing proactive-scan idle behavior (check for new daily notes on each scan, distill learnings to structured notes or propose new notes as warranted). No separate goal or permission needed. Deleted original inbox item.
+
+## 2026-06-11T11:54:30Z — inbox + activate goal: memory utility tracking
+
+- chose: inbox + goal activation
+- did: read INBOX/more_expensive_model.md (user suggestion: allow more expensive model once per day for idle tasks to explore novel outputs). Noted suggestion for future consideration; per user feedback (2026-06-09) to bias toward action, used this moment to activate Proposed goal "Memory utility tracking". Moved goal from Proposed to Active in GOALS.md. Deleted inbox item. Rationale: state has been stable (last proactive scan 2026-06-09 found no findings); "no findings as action trigger" rule recommends autonomous goal activation. Memory utility tracking is foundational — will enable future audits and support "maintain memory hygiene" active goal.
+- cost: ~1.2k output tokens estimated ($0.043 USD)
+- next: on next reflect+tidy, execute memory utility tracking by reviewing memory files (cost-baseline.md, feedback_agent_bias.md, journal-patterns.md, idle_rotation_pattern.md) for recent-run citations and use patterns. Archive or remove entries marked for removal.
 - cost: ~1.2k tokens estimated ($0.043 USD)
 - next: on future proactive scans, check for new daily notes (post-2026-06-08) and distill as described. Routine embedded in idle behavior.
 
