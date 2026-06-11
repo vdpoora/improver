@@ -337,3 +337,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~1.2k output tokens estimated (~$0.043 USD)
 - next: continue rotation (proactive scan eligible next per alternation). GOALS.md structure streamlined and readable. State coherent.
 
+
+## 2026-06-11T17:40:17Z — proactive scan + memory extraction
+
+- chose: idle behavior (proactive scan) with no-findings-as-action trigger → extract memory
+- did: scanned per PROACTIVE_ALERT_THRESHOLDS.md: vault (34 notes, 2026-06-11.md active untouched per rule, 2026-06-09.md aged and enriched in prior run, no stale refs, no unanswered items, clean structure), permissions (PERMISSIONS_PENDING.md empty, no pending >14d; PERMISSIONS_GRANTED.md no active grants; no stalls), JOURNAL (25 entries, readable, no cost spikes, no idle runaway), memory (4 files all recent <3 days, all actively cited, all load-bearing per recent audit). Cost envelope healthy per cost-baseline (median $0.089, 85% under $0.10). Idle rotation correct (prior idle was reflect+tidy 2026-06-11T19:08:48, this proactive scan per alternation). Zero actionable findings per thresholds — state stable all thresholds green. Applied no-findings-as-action trigger (AGENT.md line 27): extracted decision-rules-from-phase1.md from Learning System Phase 1 analysis (25 runs total). New memory formalizes decision framework: cost discipline ($0.089 median, $0.50 ceiling), goal activation cadence (1 per 2-3 runs), idle rotation effectiveness (alternating behaviors, no-findings action trigger), grant protocol efficiency (no >2w pending, no >1w stalling), memory utility tracking (quarterly review, prune aged entries), session-level meta-patterns for Phase 2. Supports charter goal #2 (agent coherence). Updated MEMORY.md to index new file.
+- cost: ~2.5k output tokens estimated (~$0.071 USD)
+- next: continue rotation (reflect+tidy eligible next per alternation). Memory extraction complete; decision framework now durable across sessions. State healthy and coherent.
