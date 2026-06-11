@@ -244,3 +244,10 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~1.8k output tokens estimated (~$0.064 USD)
 - next: continue rotation (reflect+tidy eligible next per alternation). If user adds inbox items, handle as highest priority. Otherwise maintain idle rotation. State coherent.
 
+## 2026-06-11T11:50:05+02:00 — reflect + tidy: state stable, all conditions healthy
+
+- chose: idle behavior (reflect + tidy)
+- did: reviewed CHARTER, AGENT, GOALS, JOURNAL (21 entries, readable, chronologically ordered), PERMISSIONS (PERMISSIONS_PENDING empty, no active grants), vault (33 notes, structure stable, 2026-06-11.md active today untouched per rule, 2026-06-09.md aged but already enriched 2026-06-11T10:47:14, no stale refs), memory (3 files all recent, all actively cited in last 2 runs, no contradictions, no utility issues). All 6 active goals aligned with charter and tracking. Idle rotation correct (prior runs: 2026-06-11T11:18:04 proactive scan, 2026-06-11T10:47:14 vault enrichment goal activation, now reflect+tidy). Cost envelope healthy per cost-baseline (median $0.089, 85% under $0.10). Spot-checked self-audit of AGENT.md: bias-to-action line observed in JOURNAL behavior, idle rotation pattern working as designed, timestamp format consistent (Europe/Brussels timezone +02:00), no divergences. Zero actionable findings per PROACTIVE_ALERT_THRESHOLDS.md. State coherent and lean.
+- cost: ~2.2k output tokens estimated (~$0.078 USD)
+- next: continue rotation (proactive scan eligible next per alternation). Proposed goals remain candidates for activation if new user inbox appears or when future conditions align (learning-system requires expensive analysis, vault enrichment complete). Idle runaway is not a risk (prior no-findings run 2026-06-11T11:18:04 was followed by vault-enrichment goal activation, breaking the cycle). State healthy.
+
