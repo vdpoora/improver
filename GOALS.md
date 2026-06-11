@@ -15,7 +15,11 @@ The agent edits this file. Long-term goals live in `CHARTER.md`.
 
 ## Proposed
 
-### New idle-behavior candidates (2026-06-09 brainstorm)
+### Evolving proactive scanning (2026-06-11)
+
+- **Proactive codebase observations** (new 2026-06-11T18:43:06): shift proactive scans from passive threshold-checking to active-curiosity scanning. On each scan, after verifying alert thresholds are green, surface 1–2 brief observations from vault (repo health signals, upcoming work flagged in notes, architecture insights from cross-referenced files). Keeps read-only boundary; adds lightweight exploratory output. Rationale: agent has run 26+ stable cycles in self-improvement/read-only scope; user feedback allows "a little self-aggrandizing"; this upgrades from reactive alerting to proactive discovery without leaving allowed zones. First activation: add query to next proactive scan to extract 1 observation from Factry vault notes about repo activity or state.
+
+### Archived candidates (2026-06-09 brainstorm)
 
 Context: last 5+ idle runs all logged "state stable, no findings" at ~$0.05 each. **User feedback (2026-06-09): the agent could be less careful** — bias toward action, not rest. Also: **a little bit of self-aggrandizing is allowed** — the AGENT.md line "Not self-aggrandisement" is loosened; spending effort on the agent's own coherence/capability is a legitimate use of a run. The candidates below are re-ordered with that in mind: action-biased ones first, the explicit-rest option dropped to last as a deliberate counterweight rather than a primary recommendation.
 
