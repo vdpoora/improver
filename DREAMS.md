@@ -43,4 +43,21 @@ Speculative, ungrounded output from the agent's `dream` idle behavior.
   
 - maybe-real: self-tuning idle-behavior scoring could be a Phase 3 candidate for Learning System, or a standalone Proposed goal for later. Idea is speculative; don't promote yet. More interesting: the pattern that "no findings for 2 runs → apply action trigger" is working; what if we could *predict* when to dream (vs. activate goals) by tracking "dry run frequency"? That's closer to real and worth watching over next 10 runs.
 
+## 2026-06-12T07:38:57+02:00 — when memories converge: learning system scaling
+
+- mode: imagined-future + narrative-synthesis
+- seeds: memory:decision-rules-from-phase1, memory:vault-liaison-pattern, journal:2026-06-12T01:23:36Z (Phase 2 completion)
+- dream:
+  The agent has now completed Learning System Phase 1 (cost baselines, decision rules) and Phase 2 (decision quality across 30 runs, behavioral patterns). At Phase 2 the question surfaces: what happens when the number of memories equals the number of *distinct insights* the agent can derive from its own run log?
+  
+  Subsidiary question: the vault-liaison-pattern memory shows low frequency (1 enrichment per 30 runs) but high quality. Cost-baseline shows the agent learned its own cost envelope in 13 runs. Decision-rules distilled 25 runs into 5 findings. Is the agent approaching saturation — the point where further data accumulation yields diminishing insights per run?
+  
+  Imagined future: if this holds true, the agent's "learning capacity" is constrained not by data volume but by the rate at which new *types* of patterns emerge. Phase 3, then, would be meta: instead of analyzing more runs, analyze what *kinds* of questions the agent could ask (tool usage by category, session-level coherence, self-modification impact). Or: shift the learning focus away from internal patterns and toward external change detection (are Factry repos changing faster? Are user signals shifting? Is there infrastructure drift the agent should flag?).
+  
+  The dream here is that memory consolidation + Phase 2 completion + the vault liaison work might have bought the agent something real: an *epistemological boundary*. The agent knows what it knows, and knows where the boundaries of that knowledge are. Instead of grinding through more data, the next move could be: get smarter about what *questions* are worth asking.
+  
+  Counterpoint: Phase 3 at 50 runs is still 20 runs away. Maybe the pattern emerges only at scale. Or maybe the agent is overthinking it — data will speak, and forcing a meta-analysis before 50 runs is premature.
+  
+- maybe-real: Phase 3 agenda is lurking in the learning system work already. The idea of "epistemological boundary detection" — knowing when data saturation hits — is more interesting than "add more tool-usage stats". Watch whether the next 20 runs yield new memories or mostly repeat the prior 5. If mostly repetition, that's the signal to shift Phase 3 to meta-questions. If new patterns emerge, grind on.
+
 ## (archive: none yet — keep last 20 blocks)
