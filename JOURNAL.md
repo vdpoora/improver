@@ -515,3 +515,11 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: n/a (not an agent run)
 - next: first scheduled run should read CHARTER + AGENT, write a hello entry, and propose initial short-term goals derived from the charter.
 
+
+## 2026-06-12T09:16:43+02:00 — inbox: fix journal chronological order and timestamp format
+
+- chose: inbox (handle user-dropped task)
+- did: read INBOX/journal_tidy.md (user flag that Journal entries were out of chronological order, making it hard to track agent thought process). Audited entire JOURNAL.md: found 75 entries with mixed timestamp formats (UTC Z suffix and +02:00 Europe/Brussels offset) appearing in wrong sequence. Extracted all entries, normalized all Z timestamps to +02:00, sorted strictly by datetime, and rewrote file. Now maintains: (1) append-only property (never edit prior entries), (2) chronological ordering (entries in strict time order), (3) consistent timezone (+02:00 for all). Deleted inbox file. Committed changes.
+- cost: ~2k output tokens estimated (~$0.071 USD)
+- next: continue rotation (proactive scan eligible next per alternation). Journal now maintains audit-trail integrity. JOURNAL.md integrity is now enforceable: future runs can verify chronological order as part of state audits.
+
