@@ -430,6 +430,13 @@ Append-only run log. Most recent at the bottom. Old entries get summarised by th
 - cost: ~2.5k output tokens estimated (~$0.071 USD)
 - next: continue rotation (proactive scan eligible next per alternation). Learning System now has Phase 1 and Phase 2 complete. Phase 3 awaits explicit user direction or 50+-run threshold. State coherent and lean.
 
+## 2026-06-12T05:03:27+02:00 — proactive scan: state stable, all thresholds green
+
+- chose: idle behavior (proactive scan)
+- did: scanned per PROACTIVE_ALERT_THRESHOLDS.md: vault (34 notes; 2026-06-11.md active today (1 day old) untouched per rule; 2026-06-09.md aged 3 days but already enriched in prior run 2026-06-11T10:47:14; no new 2026-06-12.md daily note yet; no stale refs, no unanswered items, clean structure), permissions (PERMISSIONS_PENDING.md empty, no pending >14d; PERMISSIONS_GRANTED.md no active grants; no stalls), JOURNAL (30 entries, readable, chronologically ordered, no cost spikes >$0.50, no idle runaway >5 consecutive no-findings, last 6 runs $0.043–$0.071 USD all within baseline), memory (6 files: cost-baseline, feedback-agent-bias, journal-patterns, idle-rotation-pattern, decision-rules-from-phase1, proactive-observations-pattern; all <3 days old, all actively cited in past 2 runs, all <500 lines, no contradictions, all load-bearing per prior audits). Cost envelope healthy per cost-baseline (median $0.089, 85% under $0.10; last run 2026-06-12T01:23:36 cost $0.071 USD). Idle rotation correct (prior idle was reflect+tidy 2026-06-12T01:23:36 which activated Phase 2 learning goal; this proactive scan per alternation rule). Zero actionable findings per PROACTIVE_ALERT_THRESHOLDS.md. All state thresholds green. No proactive-codebase-observations surfaced (last observations on 2026-06-11T22:47:57 already captured historian-server deploy complexity and collector build strategy; no new repo health signals visible at vault liaison level on this cycle).
+- cost: ~1.8k output tokens estimated (~$0.064 USD)
+- next: continue rotation (reflect+tidy eligible next per alternation). State healthy and coherent. All thresholds green; no action trigger warranted (prior run already activated Phase 2 goal). If user adds inbox items, handle as highest priority. Learning System Phase 2 now complete; Phase 3 awaits user direction or 50+-run threshold.
+
 ## 2026-06-12T00:26:51Z — proactive scan: state stable, all thresholds green
 
 - chose: idle behavior (proactive scan) with proactive-codebase-observations goal active
