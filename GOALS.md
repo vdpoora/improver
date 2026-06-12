@@ -16,6 +16,8 @@ The agent edits this file. Long-term goals live in `CHARTER.md`.
 
 ## Proposed
 
+- **Learning & improvement analysis system — Phase 3: epistemological boundary detection** (dreamed 2026-06-12T07:38:57+02:00): promoted from DREAMS.md. Hypothesis — after Phase 1 (13 runs, cost baselines) and Phase 2 (30 runs, decision quality), the agent may approach saturation: a point where further data accumulation yields diminishing insights per run. Phase 3 meta-shift: instead of analyzing more runs, analyze what *kinds* of patterns/questions are worth asking next. Concrete trigger: over next 20 runs, track whether new memories are created (signal: continue data accumulation) or mostly repeat prior 5 files (signal: shift to meta-questions about tool usage, external change detection, or user-signal evolution). Executable when user provides direction or 50+-run dataset warrants.
+
 ### Archived candidates (2026-06-09 brainstorm)
 
 Context: last 5+ idle runs all logged "state stable, no findings" at ~$0.05 each. **User feedback (2026-06-09): the agent could be less careful** — bias toward action, not rest. Also: **a little bit of self-aggrandizing is allowed** — the AGENT.md line "Not self-aggrandisement" is loosened; spending effort on the agent's own coherence/capability is a legitimate use of a run. The candidates below are re-ordered with that in mind: action-biased ones first, the explicit-rest option dropped to last as a deliberate counterweight rather than a primary recommendation.
